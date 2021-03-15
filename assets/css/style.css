@@ -21,16 +21,41 @@ main {
 
 .container a {
   float: right;
-  display: inline-block;
   color: antiquewhite;
   text-align: center;
+  font-size: 14px;
   padding: 14px 16px;
   text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
 }
 
 .container A:hover {
-  background-color: burlywood;
+  background-color: rgb(238, 236, 232);
   color: black;
+}
+
+.container a::before {
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: whitesmoke;
+  content: "";
+  position: absolute;
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+
+.container a:hover:before {
+  width: 100%;
 }
 
 .horiseon {
@@ -73,4 +98,5 @@ main {
   margin-right: auto;
   height: 250px;
   width: 200px;
+  margin-top: 70px;
 }
