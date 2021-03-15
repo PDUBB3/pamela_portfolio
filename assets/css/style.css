@@ -1,4 +1,76 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+main {
+  display: flex;
+  margin-top: 2%;
+}
+
+.mainheading {
+  background-color: #55d6aa;
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container a {
+  float: right;
+  display: inline-block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container A:hover {
+  background-color: burlywood;
+  color: black;
+}
+
+.horiseon {
+  height: 400px;
+  width: 600px;
+  float: left;
+  flex: 1 0 0;
+  @media screen and (max-width: 500px) {
+    .horiseon {
+      width: 100%;
+    }
+  }
+}
+.project {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  flex: 1 0 0;
+  position: relative;
+  opacity: 0.5;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 200px;
+  width: 300px;
+  float: left;
+}
+.project2,
+.project3,
+.project4 {
+}
+.pamela {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 200px;
 }

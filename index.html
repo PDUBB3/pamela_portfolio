@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All about me - Pamela</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- heading here-->
-    <header>
-    <div>
+    <header class="mainheading" >
        <h2>Pamela Dubb</h2>
        <h4>Portfolio about me</h4>
-    </div>
     <!--insert nav bar here-->
+    <div class="container">
     <nav>
       <!--insert links here-->
       <ul>
@@ -29,21 +28,13 @@
         </li>
       </ul>
     </nav>
+    </div>
+    </header>
   </header>
-    <!--background image here-->
-
-
-    <!-- main content of page -->
+  
     <!-- section for about me-->
-  <main>
-    <section>
-      <img src="./assets/images/Blackbackground.jpg" class="background"
-        alt="black background" />
-    </section>
-  <section 
-  id="about-me"
-  class="about-me">
-  <img src="./assets/images/Pamelapic.jpg
+  <section>
+  <img class="pamela" src="./assets/images/Pamelapic.jpg"
   class="float-center"
   alt="Pamela"/>
   <h2> About me</h2>
@@ -51,45 +42,43 @@
   <p> I’m currently working as an assistant project manager for Network rail and I am looking for a career change from project management to web developing.
     I have skills in HTML, CSS and JavaScript using software’s such as visual studio and git.</p>
 </section>
-  <!-- section for my projects via flexbox-->
+  <!-- main section for my projects via flexbox-->
   <!-- section for horiseon project-->
-<section 
-  class="projects">
-  <header> Code Refactoring </header>
-  <img src="./assets/images/Horiseon.jpg"
+<main>
+<section id="horiseon">
+  <header >Code Refactoring </header>
+  <img class="horiseon" src="./assets/images/Horiseon.jpg"
   alt="Horiseon"/>
  <p> In this project, I was able to code refactor an existing site called Horiseon, to make it more accessible and optimized for search engines.</p>
  <p1> Skills used: semantic HTML, HTML layout, CSS styling </p1>
 </section>
     <!-- section for project 2-->
-<section 
-  class="projects">
-  <header> Project 2 </header>
-  <img src="./assets/images/project1.jpg"
+<section id="project2">
+  <header>Project 2</header>
+  <img class="project" src="./assets/images/p1.jpg"
   alt="project2"/>
  <p> Ongoing project.</p>
  <p1> Skills used: = </p1>
 </section>
 
     <!-- section for project 3-->
-<section 
-  class="projects">
+<section id="project3">
   <header> Project 3 </header>
-  <img src="./assets/images/Project2.png"
-  alt="project2"/>
+  <img class="project" src="./assets/images/p2.png"
+  alt="project3"/>
  <p> Ongoing project.</p>
  <p1> Skills used: = </p1>
 </section>
 
     <!-- section for project 4-->
-<section 
-  class="projects">
-  <header> Project 4 </header>
-  <img src="./assets/images/project3.jpg"
-  alt="project2"/>
+<section id="project4">
+  <header class="project"> Project 4 </header>
+  <img class="project" src="./assets/images/p1.jpg"
+  alt="project4"/>
  <p> Ongoing project.</p>
  <p1> Skills used: = </p1>
 </section>
+</main>
   <!-- section for contact us -->
 </section>
 <section 
