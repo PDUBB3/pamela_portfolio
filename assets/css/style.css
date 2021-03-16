@@ -14,6 +14,22 @@ main {
   color: black;
 }
 
+.mainheading h2 {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.mainheading h4 {
+  font-family: "Bitter", serif;
+  font-family: "Cinzel", serif;
+  color: antiquewhite;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -22,13 +38,15 @@ main {
 .container a {
   float: right;
   color: antiquewhite;
-  text-align: center;
+  text-align: right;
   font-size: 14px;
   padding: 14px 16px;
   text-decoration: none;
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: "Bitter", serif;
+  font-family: "Cinzel", serif;
 }
 
 .container li {
@@ -62,7 +80,11 @@ main {
   height: 400px;
   width: 600px;
   float: left;
-  flex: 1 0 0;
+  display: flex;
+  flex: 1 1 10cm;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
   @media screen and (max-width: 500px) {
     .horiseon {
       width: 100%;
@@ -73,24 +95,23 @@ main {
   padding: 5px;
   border: 1px solid black;
   border-radius: 4px;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 150px;
-  flex: 1 0 0;
   position: relative;
   opacity: 0.5;
-  flex-wrap: wrap;
   align-content: space-between;
   height: 200px;
   width: 300px;
   float: left;
+  flex: 1 1 10cm;
 }
-.project2,
-.project3,
-.project4 {
+
+.project {
+  display: flex;
+  flex-direction: row;
 }
+
 .pamela {
   border-radius: 50%;
   display: block;
