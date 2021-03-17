@@ -2,7 +2,7 @@
 
 ## Project link
 
-Click [here] to view on project Github Pages
+Click [here] (todo) to view on project Github Pages
 
 ## Description
 
@@ -12,11 +12,13 @@ As an employee
 
 Create files from scratch our selves
 include the following elements into our portfolio:
-[x] Full name at the top or our portfolio
-[x] Picture of ourself
+[x] Full name at the top of our portfolio
+[x] Recent picture of ourself
 [x] Navigation bar that links to 3 sections - About us/ Our projects/ Contact details
 [] `ALT` attributes for all images
 [x] Link projects through image or link to open up GitHub repository for that project
+[] First application image should be larger in size than others
+[] Responsive layout
 [] Layout must adapt to different screens
 [] `README` must contain screenshots,decription, links to deployed application.
 [x] Semantic HTML
@@ -26,10 +28,27 @@ include the following elements into our portfolio:
 
 ## Getting started
 
-Create a GitHub repository
+-Create a GitHub repository
+-Clone github project onto your local machine
+-Navigate into the project
+
+- Open the project into VS code
+- Open the 1
+
+```
+git clone git@github.com:PDUBB3/pamela_portfolio.git
+cd pamela-portfolio
+code .
+```
 
 ## Screenshots
+
+to do at the end
 
 ## Link to Deployed Application
 
 https://pdubb3.github.io/pamela_portfolio/
+
+```
+
+```
