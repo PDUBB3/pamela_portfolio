@@ -89,7 +89,7 @@ main {
 }
 
 .photosection {
-  background-color: rgb(250, 229, 210);
+  background-color: rgb(240, 204, 158);
   border: 2px solid whitesmoke;
   text-align: center;
 }
@@ -142,12 +142,14 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   display: flex;
+  background-color: bisque;
+  border: 2px solid whitesmoke;
 }
 
 .horiseon {
   height: 400px;
   width: 600px;
-  border: 2px solid peachpuff;
+  border: 2px solid black;
   padding: 10px;
   border-radius: 4px;
   align-items: center;
@@ -155,7 +157,7 @@ main {
 }
 
 .project {
-  border: 2px solid peachpuff;
+  border: 2px solid black;
   padding: 10px;
   border-radius: 4px;
   height: 200px;
@@ -163,6 +165,7 @@ main {
   align-items: center;
   opacity: 0.5;
   position: relative;
+  background-color: whitesmoke;
 }
 
 section p {
@@ -215,37 +218,24 @@ section p1 {
   text-align: center;
   padding: 10px;
 }
-.contact ul {
-  margin-left: 30px;
-  margin-top: 25px;
-  list-style-type: none;
-  float: right;
-  line-height: 50px;
-  height: 50px;
-  width: 50px;
-}
 
 .fa-instagram {
-  background: antiquewhite;
-  color: #55d6aa;
-  float: right;
+  color: antiquewhite;
   display: flex;
   flex: 50%;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
 }
 
 .fa-linkedin {
-  background: antiquewhite;
-  color: #55d6aa;
-  float: right;
+  color: antiquewhite;
+  float: inline-end;
   display: flex;
   flex: 50%;
-}
-
-footer {
-  font-family: "Ubuntu", sans-serif;
-  color: black;
   text-align: center;
-  padding: 5px;
+  display: inline-block;
+  width: 100%;
 }
 
 div h2 {
@@ -254,8 +244,16 @@ div h2 {
   color: rgb(75, 74, 74);
   text-align: center;
   padding: 20px;
+  display: block;
 }
 
 .contactme {
   background-color: #55d6aa;
+}
+
+footer {
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+  text-align: center;
+  padding: 5px;
 }
