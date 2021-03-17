@@ -79,13 +79,15 @@ main {
 .horiseon {
   height: 400px;
   width: 600px;
-  float: left;
   display: flex;
-  flex: 1 1 10cm;
+  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
+  border: 2px solid peachpuff;
+  padding: 10px;
+  border-radius: 4px;
+  align-items: center;
   position: relative;
-  justify-content: space-between;
 }
 
 .project {
@@ -93,7 +95,6 @@ main {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
   border: 2px solid peachpuff;
   padding: 10px;
   border-radius: 4px;
@@ -114,6 +115,10 @@ main {
   margin-bottom: 30px;
 }
 
+.photosection {
+  background-color: peachpuff;
+  border: 2px solid whitesmoke;
+}
 .photo .image-back {
   border-radius: 50%;
   height: 250px;
