@@ -89,7 +89,7 @@ main {
 }
 
 .photosection {
-  background-color: rgb(240, 204, 158);
+  background-color: rgb(141, 128, 117);
   border: 2px solid whitesmoke;
   text-align: center;
 }
@@ -118,13 +118,13 @@ main {
 .aboutme h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
-  color: rgb(75, 74, 74);
+  color: antiquewhite;
   text-align: center;
 }
 
 .aboutme p {
   font-family: "Ubuntu", sans-serif;
-  color: rgb(75, 74, 74);
+  color: antiquewhite;
   padding: 10px;
   text-align: center;
 }
