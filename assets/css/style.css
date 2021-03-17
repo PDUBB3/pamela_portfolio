@@ -57,15 +57,15 @@ main {
 }
 
 .container A:hover {
-  background-color: rgb(238, 236, 232);
-  color: black;
+  background-color: peachpuff;
+  color: rgb(59, 58, 58);
 }
 
 .container a::before {
   display: block;
   height: 5px;
   width: 0%;
-  background-color: whitesmoke;
+  background-color: peachpuff;
   content: "";
   position: absolute;
   top: 0;
@@ -85,28 +85,23 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   position: relative;
-}
-.project {
-  padding: 5px;
-  border: 1px solid black;
-  border-radius: 4px;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  position: relative;
-  opacity: 0.5;
-  align-content: space-between;
-  height: 200px;
-  width: 300px;
-  float: left;
-  flex: 1 1 10cm;
+  justify-content: space-between;
 }
 
 .project {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid peachpuff;
+  padding: 10px;
+  border-radius: 4px;
+  height: 200px;
+  width: 300px;
+  align-items: center;
+  opacity: 0.5;
+  position: relative;
 }
 
 .photo {
@@ -173,4 +168,54 @@ section p1 {
   font-family: "Ubuntu", sans-serif;
   color: rgb(75, 74, 74);
   font-style: italic;
+}
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: peachpuff;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(75, 74, 74);
+}
+
+.contact ul {
+  margin-left: 30px;
+  margin-top: 25px;
+  list-style-type: none;
+  float: right;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+.fa-instagram {
+  background: antiquewhite;
+  color: rgb(59, 58, 58);
+  float: right;
+}
+
+.fa-linkedin {
+  background: antiquewhite;
+  color: rgb(59, 58, 58);
+  display: inline-block;
+  float: right;
+}
+
+.fa-mobile-phone {
+  margin-top: 25px;
+  background: antiquewhite;
+  color: rgb(59, 58, 58);
+}
+
+.fa-envelope-o {
+  background: antiquewhite;
+  color: rgb(59, 58, 58);
 }
