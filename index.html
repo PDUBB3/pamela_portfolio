@@ -7,7 +7,6 @@
     <title>All about me - Pamela</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" /><link href="https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel:wght@600&display=swap"rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap=emboss" rel="stylesheet"/>
@@ -22,14 +21,13 @@
   </head>
   <body>
     <!-- heading here-->
-    <header class="mainheading">
+    <header id="mainheading" class="mainheading">
       <h2>PAMELA DUBB</h2>
       <h4>Portfolio about me</h4>
-      <!--insert nav bar here-->
-
-      <div class="container">
+<!-- Insert nav here-->
+      <div id="container" class="container">
         <nav>
-          <!--insert links here-->
+          <!--insert links here for each section-->
           <ul>
             <li>
               <a href="#aboutme"> About me </a>
@@ -45,8 +43,9 @@
       </div>
     </header>
 
-    <!-- section for about me-->
-    <section class="photosection">
+<!-- section for about me-->
+    <section id="photosection" class="photosection">
+<!-- image for front and back hover here-->
       <div class="photo">
         <img
           src="/assets/images/pamelapic2.jpg"
@@ -59,10 +58,9 @@
           alt="photo front"
         />
       </div>
-
+ <!-- paragraph about me-->
       <div id="aboutme" class="aboutme">
         <h2>About me</h2>
-        <!-- paragraph about me-->
         <p>
           I’m currently working as an assistant project manager for Network rail
           and I am looking for a career change from project management to web
@@ -71,16 +69,18 @@
         </p>
       </div>
     </section>
-    <!-- main section for my projects via flexbox-->
-    <!-- section for horiseon project-->
+<!-- main section for my projects via flexbox-->
+<!-- section for horiseon project-->
 
     <main>
       <div id="myprojects" class="myprojects">
         <h2> My Projects</h2>
       <section id="horiseon">
         <h3>Code Refactoring</h3>
+ <!-- link to github from image-->
         <a href="https://github.com/PDUBB3/code-refactoring.git">
-        <img
+  <!-- horiseon image-->      
+          <img
           class="horiseon"
           src="./assets/images/Horiseon.jpg"
           alt="Horiseon"/>
@@ -91,37 +91,44 @@
         </p>
         <p1> Skills used: semantic HTML, HTML layout, CSS styling </p1>
       </section>
-      <!-- section for project 2-->
 
+<!-- insert section for project 2-->
       <section id="projects">
         <h3>Project 2</h3>
+
+<!-- insert project 2 image-->
         <img class="project" src="./assets/images/p1.jpg" alt="project2" />
         <p>Ongoing project.</p>
         <p1> Skills used: = </p1>
       </section>
 
-      <!-- section for project 3-->
+<!-- insert section for project 3-->
       <section id="projects">
         <h3>Project 3</h3>
+
+<!-- insert project 3 image-->
         <img class="project" src="./assets/images/p2.png" alt="project3" />
         <p>Ongoing project.</p>
         <p1> Skills used: = </p1>
       </section>
 
-      <!-- section for project 4-->
+<!-- section for project 4-->
       <section id="projects">
         <h3>Project 4</h3>
+
+<!-- insert project 4  image-->
         <img class="project" src="./assets/images/p1.jpg" alt="project4" />
         <p>Ongoing project.</p>
         <p1> Skills used: = </p1>
       </section>
     </div>
     </main>
-    <!-- section for contact us -->
+
+<!-- section for contact us -->
     <div id="contactme" class="contactme">
       <h2> Contact Me</h2>
       <section>
-        <!--section for clickable url-->
+ <!--section for clickable url to socials icons-->
         <ul>
           <li>
             <a class="fa fa-linkedin" href="https:www.linkedin.com/in/pamela-bhopal"></a>
@@ -135,6 +142,7 @@
         </ul>
         
       </div>
+  <!-- div for contact details in contact us-->
       <div class="personaldetails">
         <p>Mobile: 07887774856</p>
         <p1> Email: pamela.bhopal@icloud.com</p1>
