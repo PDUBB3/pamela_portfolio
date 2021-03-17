@@ -89,7 +89,7 @@ main {
 }
 
 .photosection {
-  background-color: peachpuff;
+  background-color: rgb(250, 229, 210);
   border: 2px solid whitesmoke;
   text-align: center;
 }
@@ -136,26 +136,25 @@ main {
   margin-right: auto;
 }
 
-.horiseon {
-  height: 400px;
-  width: 600px;
-  display: flex;
+main {
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  display: flex;
+}
+
+.horiseon {
+  height: 400px;
+  width: 600px;
   border: 2px solid peachpuff;
   padding: 10px;
   border-radius: 4px;
   align-items: center;
   position: relative;
-  text-align: center;
 }
 
 .project {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
   border: 2px solid peachpuff;
   padding: 10px;
   border-radius: 4px;
@@ -176,16 +175,18 @@ section h3 {
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   color: rgb(75, 74, 74);
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 section p1 {
   font-family: "Ubuntu", sans-serif;
   color: rgb(75, 74, 74);
   font-style: italic;
+  line-height: 25px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .fa {
@@ -200,11 +201,18 @@ section p1 {
 .contact {
   display: flex;
   justify-content: center;
-  background-color: peachpuff;
+  background-color: #55d6aa;
   font-family: "Ubuntu", sans-serif;
   color: rgb(75, 74, 74);
 }
 
+.personaldetails {
+  display: flex;
+  justify-content: center;
+  background-color: #55d6aa;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(75, 74, 74);
+}
 .contact ul {
   margin-left: 30px;
   margin-top: 25px;
@@ -217,15 +225,16 @@ section p1 {
 
 .fa-instagram {
   background: antiquewhite;
-  color: rgb(59, 58, 58);
+  color: #55d6aa;
   float: right;
+  display: inline-block;
 }
 
 .fa-linkedin {
   background: antiquewhite;
-  color: rgb(59, 58, 58);
-  display: inline-block;
+  color: #55d6aa;
   float: right;
+  display: inline-block;
 }
 
 .fa-mobile-phone {
