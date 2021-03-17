@@ -1,19 +1,22 @@
+/* box sizing details */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+/* main body with flex */
 main {
   display: flex;
   margin-top: 2%;
 }
 
+/* mainheading background colour and font */
 .mainheading {
   background-color: #55d6aa;
   color: black;
 }
 
+/* pamela dubb heading styles */
 .mainheading h2 {
   font-family: "Cinzel", serif;
   font-size: 30px;
@@ -24,6 +27,7 @@ main {
   padding-top: 5px;
 }
 
+/* all about me heading styles */
 .mainheading h4 {
   font-family: "Bitter", serif;
   font-family: "Cinzel", serif;
@@ -32,27 +36,25 @@ main {
   margin-top: 10px;
   margin: 10px;
 }
-
+/* container details */
 .container {
   width: 80%;
   margin: 0 auto;
   text-align: right;
 }
-
+/* nav heading styles and alignment */
 .container a {
   float: right;
   color: antiquewhite;
   text-align: right;
   font-size: 14px;
-  padding: 14px 16px;
   text-decoration: none;
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: "Bitter", serif;
   font-family: "Cinzel", serif;
 }
-
+/* container li details */
 .container li {
   display: inline-block;
   margin-left: 70px;
@@ -60,6 +62,7 @@ main {
   position: relative;
 }
 
+/* colour for when hovered over links */
 .container A:hover {
   background-color: antiquewhite;
   color: rgb(59, 58, 58);
@@ -79,7 +82,7 @@ main {
 .container a:hover:before {
   width: 100%;
 }
-
+/* photo alignment and shape */
 .photo {
   border-radius: 50%;
   display: inline-block;
@@ -93,6 +96,8 @@ main {
   border: 2px solid whitesmoke;
   text-align: center;
 }
+
+/* photo change when hovering  */
 .photo .image-back {
   border-radius: 50%;
   height: 250px;
@@ -115,6 +120,7 @@ main {
   border-radius: 50%;
 }
 
+/* about me font styles and alignment */
 .aboutme h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
@@ -136,6 +142,7 @@ main {
   margin-right: auto;
 }
 
+/* main section alignment */
 main {
   text-align: center;
   flex-direction: column;
@@ -146,28 +153,31 @@ main {
   border: 2px solid whitesmoke;
 }
 
+/* first project size larger than other projects*/
 .horiseon {
   height: 400px;
   width: 600px;
-  border: 2px solid black;
-  padding: 10px;
-  border-radius: 4px;
-  align-items: center;
-  position: relative;
 }
 
+/* projects alignment and border style */
+.horiseon,
 .project {
   border: 2px solid black;
   padding: 10px;
   border-radius: 4px;
+  align-items: center;
+  position: relative;
+}
+
+/* other projects size smaller, equal with opacity as it is currently empty */
+.project {
   height: 200px;
   width: 300px;
-  align-items: center;
   opacity: 0.5;
-  position: relative;
   background-color: whitesmoke;
 }
 
+/* section font styles and alignment */
 section p {
   font-family: "Ubuntu", sans-serif;
   color: rgb(75, 74, 74);
@@ -192,23 +202,10 @@ section p1 {
   margin-bottom: 5px;
 }
 
-.fa {
-  padding: 15px;
-  font-size: 50px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
+/* contact me section font styles and alignment */
+.contactme {
   background-color: #55d6aa;
-  font-family: "Ubuntu", sans-serif;
-  color: rgb(75, 74, 74);
 }
-
 .personaldetails {
   display: flex;
   justify-content: center;
@@ -219,25 +216,27 @@ section p1 {
   padding: 10px;
 }
 
-.fa-instagram {
-  color: antiquewhite;
-  display: flex;
-  flex: 50%;
+/* icon size and alignment */
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 50px;
   text-align: center;
-  width: 100%;
-  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%;
 }
-
+/* icon style */
+.fa-instagram,
+.fa-github,
 .fa-linkedin {
   color: antiquewhite;
-  float: inline-end;
   display: flex;
   flex: 50%;
   text-align: center;
-  display: inline-block;
   width: 100%;
+  display: inline-block;
 }
-
+/* contact me heading style */
 div h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
@@ -246,11 +245,7 @@ div h2 {
   padding: 20px;
   display: block;
 }
-
-.contactme {
-  background-color: #55d6aa;
-}
-
+/* footer details  */
 footer {
   font-family: "Ubuntu", sans-serif;
   color: black;
