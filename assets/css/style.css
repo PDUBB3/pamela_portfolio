@@ -18,21 +18,25 @@ main {
   font-family: "Cinzel", serif;
   font-size: 30px;
   color: antiquewhite;
-  text-align: center;
+  text-align: left;
+  margin: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
 }
 
 .mainheading h4 {
   font-family: "Bitter", serif;
   font-family: "Cinzel", serif;
   color: antiquewhite;
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+  text-align: right;
 }
 
 .container a {
@@ -57,7 +61,7 @@ main {
 }
 
 .container A:hover {
-  background-color: peachpuff;
+  background-color: antiquewhite;
   color: rgb(59, 58, 58);
 }
 
@@ -65,7 +69,7 @@ main {
   display: block;
   height: 5px;
   width: 0%;
-  background-color: peachpuff;
+  background-color: antiquewhite;
   content: "";
   position: absolute;
   top: 0;
@@ -76,48 +80,18 @@ main {
   width: 100%;
 }
 
-.horiseon {
-  height: 400px;
-  width: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 2px solid peachpuff;
-  padding: 10px;
-  border-radius: 4px;
-  align-items: center;
-  position: relative;
-}
-
-.project {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 2px solid peachpuff;
-  padding: 10px;
-  border-radius: 4px;
-  height: 200px;
-  width: 300px;
-  align-items: center;
-  opacity: 0.5;
-  position: relative;
-}
-
 .photo {
   border-radius: 50%;
   display: inline-block;
-  margin-top: 70px;
+  margin-top: 30px;
   position: relative;
-  margin-left: 35%;
-  margin-right: 60%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .photosection {
   background-color: peachpuff;
   border: 2px solid whitesmoke;
+  text-align: center;
 }
 .photo .image-back {
   border-radius: 50%;
@@ -145,11 +119,14 @@ main {
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   color: rgb(75, 74, 74);
+  text-align: center;
 }
 
 .aboutme p {
   font-family: "Ubuntu", sans-serif;
   color: rgb(75, 74, 74);
+  padding: 10px;
+  text-align: center;
 }
 
 .aboutme {
@@ -159,21 +136,58 @@ main {
   margin-right: auto;
 }
 
+.horiseon {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid peachpuff;
+  padding: 10px;
+  border-radius: 4px;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid peachpuff;
+  padding: 10px;
+  border-radius: 4px;
+  height: 200px;
+  width: 300px;
+  align-items: center;
+  opacity: 0.5;
+  position: relative;
+}
+
 section p {
   font-family: "Ubuntu", sans-serif;
   color: rgb(75, 74, 74);
+  margin-bottom: 2px;
+  text-align: center;
 }
 section h3 {
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   color: rgb(75, 74, 74);
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 section p1 {
   font-family: "Ubuntu", sans-serif;
   color: rgb(75, 74, 74);
   font-style: italic;
+  text-align: center;
 }
+
 .fa {
   padding: 15px;
   font-size: 50px;
