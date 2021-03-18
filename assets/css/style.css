@@ -7,13 +7,14 @@
 
 /* tablet viewport break-point (max-width 992px)*/
 @media screen and (max-width: 992px) {
-  .project {
-    width: 50%;
+  .myproject {
+    width: 100%;
+  }
 }
 
 /* mobile viewport break-point (max-width 768px)*/
-@media screen and (max-width: 992px) {
-  .project {
+@media screen and (max-width: 768px) {
+  .myproject {
     width: 100%;
   }
 }
@@ -28,7 +29,6 @@ main {
 .mainheading {
   background-color: #55d6aa;
   color: black;
-  width: 100%;
 }
 
 /* pamela dubb heading styles */
@@ -200,7 +200,6 @@ main {
   display: flex;
   align-content: center;
 }
-
 
 /* section font styles and alignment */
 section p {
