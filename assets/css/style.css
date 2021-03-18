@@ -172,10 +172,6 @@ main {
   padding: 10px;
   border-radius: 4px;
   position: relative;
-  width: 100%;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
 }
 
 /* other projects size smaller, equal with opacity as it is currently empty */
