@@ -9,10 +9,6 @@
 @media screen and (max-width: 992px) {
   .project {
     width: 50%;
-  }
-  .mainheading {
-    width: 50%;
-  }
 }
 
 /* mobile viewport break-point (max-width 768px)*/
@@ -114,6 +110,7 @@ main {
   background-color: rgb(141, 128, 117);
   border: 2px solid whitesmoke;
   text-align: center;
+  width: 100%;
 }
 
 /* photo change when hovering  */
@@ -162,15 +159,15 @@ main {
 }
 
 /* main section alignment */
-.projects {
+.myprojects {
   text-align: center;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   display: flex;
-  background-color: bisque;
+  background-color: rgb(252, 238, 223);
   border: 2px solid whitesmoke;
-  width: 25%;
+  width: 100%;
   float: left;
 }
 
@@ -182,7 +179,7 @@ main {
 
 /* projects alignment and border style */
 .horiseon,
-.project {
+.projectimage {
   border: 2px solid black;
   padding: 10px;
   border-radius: 4px;
@@ -190,7 +187,7 @@ main {
   width: 100%;
   justify-content: center;
   display: flex;
-  align-content: center;
+  flex-direction: column;
 }
 
 /* other projects size smaller, equal with opacity as it is currently empty */
@@ -203,6 +200,7 @@ main {
   display: flex;
   align-content: center;
 }
+
 
 /* section font styles and alignment */
 section p {
