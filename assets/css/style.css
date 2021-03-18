@@ -140,13 +140,13 @@ main {
 .aboutme h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
-  color: antiquewhite;
+  color: white;
   text-align: center;
 }
 
 .aboutme p {
   font-family: "Ubuntu", sans-serif;
-  color: antiquewhite;
+  color: white;
   padding: 10px;
   text-align: center;
 }
