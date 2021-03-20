@@ -34,7 +34,6 @@ include the following elements into our portfolio:
 - Navigate into the project
 
 - Open the project into VS code
-- Open the 1
 
 ```
 git clone git@github.com:PDUBB3/pamela_portfolio.git
